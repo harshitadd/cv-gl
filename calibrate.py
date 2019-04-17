@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import glob
 
+'''used to form the camera caliiberation matrix for an aruco overlay using opencv '''
 # termination criteria
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 
